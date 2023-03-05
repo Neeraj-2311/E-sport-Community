@@ -1,0 +1,131 @@
+:root{
+  --bg-color: #121212;
+  --second-bg-color: #000;
+  --text-color: #ffffff;
+  --main-color: #f09036;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter UI', sans-serif;
+  background: var(--bg-color);
+  display: flex;
+  min-height: 100vh;
+  justify-items: center;
+}
+.container {
+  display: flex;
+  height: 330px;
+  margin: auto;
+  width: 640px;
+}
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    height: 690px;
+    width: 360px;
+  }
+}
+.left {
+  background: white;
+  height: calc(100% - 40px);
+  top: 20px;
+  position: relative;
+  width: 50%; 
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .left {
+    height: 100%;
+    left: 20px;
+    text-align: center;
+    align-items: center;
+    width: calc(100% - 40px);
+    max-height: 270px;
+  }
+}
+
+h1 {
+  display: block;
+  font-size: 3rem;
+  margin: 10px 0;
+  font-weight: 900;
+}
+p {
+  color: var(--second-bg-color);
+  font-weight: 600;
+  line-height: 1.5;
+  width: max-content;
+  margin: 5px 0;
+}
+.right {
+  background: var(--second-bg-color);
+  box-shadow: 0px 0px 40px 16px rgba(49, 101, 185, 0.22);
+  color: #F1F1F2;
+  position: relative;
+  width: 50%;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .right {
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 290px;
+  }
+}
+svg {
+  position: absolute;
+  width: 320px;
+}
+path {
+  fill: none;
+  stroke: url(#linearGradient);
+  stroke-width: 4;
+  stroke-dasharray: 240 1386;
+}
+.form {
+  margin: 40px;
+  position: absolute;
+}
+label {
+  color:  var(--text-color);
+  display: block;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+input{
+  background: rgba(30, 59, 105, 0.22);
+  border: 0;
+  color: #f2f2f2;
+  font-size: 1rem;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+}
+input::-moz-focus-inner { 
+  border: 0; 
+}
+#submit {
+  background: none;
+  color: #6581a7;
+  margin-top: 40px;
+  transition: color 300ms;
+}
+#submit:focus {
+  color: var(--text-color);
+}
+#submit:active {
+  color: var(--text-color);
+}
