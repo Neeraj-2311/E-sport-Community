@@ -21,6 +21,7 @@
 - A Data Science and SDE enthusiast
 - Currently learning MERN Stack Development
 - Also learning and exploring Machine Learning
+- I am currently open for an Intern role or a new job opportunity
 <!-- - Personal website [link](https://www.0xabdulkhalid.ml) -->
 <!-- - I’m currently open for an Intern or a new job opportunity, this is [my resume](https://read.cv/0xabdulkhalid) -->
 
@@ -112,8 +113,8 @@
 <br>
 
 <li>
-<a href="https://www.instagram.com/neeraj_sh2311/" target="_blank">
-<img src="https://img.shields.io/badge/twitter:  Neeraj_sh2311-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=twitter&logoColor=white" alt=instagram style="margin-bottom: 5px;"/>
+<a href="https://www.instagram.com/neeraj/" target="_blank">
+<img src="https://img.shields.io/badge/instagram:  Neeraj_sh2311-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=instagram&logoColor=white" alt=instagram style="margin-bottom: 5px;"/>
 </a>
 </li>
 
