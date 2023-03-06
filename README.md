@@ -113,8 +113,8 @@
 <br>
 
 <li>
-<a href="https://www.instagram.com/neeraj/" target="_blank">
-<img src="https://img.shields.io/badge/instagram:  Neeraj_sh2311-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=instagram&logoColor=white" alt=instagram style="margin-bottom: 5px;"/>
+<a href="https://www.instagram.com/neeraj_2311/" target="_blank">
+<img src="https://img.shields.io/badge/instagram:  Neeraj-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=instagram&logoColor=white" alt=instagram style="margin-bottom: 5px;"/>
 </a>
 </li>
 
