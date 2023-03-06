@@ -673,6 +673,9 @@ footer a.top-icon {
     .event-box:hover .img{
         filter: none;
     }
+    .event-box:hover .img img {
+        transform: none;
+    }
     .event-layer h4 {
         font-size: 1.4rem;
         margin: 10px auto 0;
