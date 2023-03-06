@@ -142,7 +142,9 @@ p {
     color: var(--text-color);
     height: calc(100vh - 73px);
 }
-
+.multiple-text{
+    color: yellow;
+}
 .home div {
     margin: auto;
 }
@@ -262,7 +264,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--second-bg-color));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,8 +298,11 @@ p {
     color: #000;
 }
 
-.event-box:hover .event-layer {
+.event-box:hover .event-layer{
     transform: translateY(0);
+}
+.event-box:hover .img{
+    filter: blur(4px);
 }
 
 
@@ -393,7 +398,7 @@ p {
 }
 
 .about h3 {
-    font-family: var(--text-style-5);
+    font-family: var(--text-style-1);
 }
 
 .about .about-container {
@@ -484,6 +489,7 @@ p {
 footer {
     overflow: auto;
     background-color: #000;
+    padding-bottom: 20px;
 }
 footer .content-box{
     padding: 0 20px 2%;
@@ -501,6 +507,9 @@ footer p{
 }
 footer p:nth-of-type(1), footer p:nth-of-type(3){
     color: var(--main-color);
+}
+footer p:nth-of-type(3){
+    margin-bottom: 20px;
 }
 footer .form-container {
     width: 90%;
@@ -614,7 +623,9 @@ footer a.top-icon {
     .home {
         height: auto;
     }
-
+    .home p{
+        font-size: 1.2rem;
+    }
     .tournaments {
         min-height: auto;
         height: auto;
@@ -659,7 +670,9 @@ footer a.top-icon {
         transform: translateY(0%);
         background: none;
     }
-
+    .event-box:hover .img{
+        filter: none;
+    }
     .event-layer h4 {
         font-size: 1.4rem;
         margin: 10px auto 0;
@@ -808,6 +821,7 @@ footer a.top-icon {
 @media(max-width: 850px) {
     #menu-icon {
         display: block;
+        cursor: pointer;
     }
 
     .logo {
@@ -864,6 +878,7 @@ footer a.top-icon {
     .home .content-box a {
         display: inline-block;
         margin: 10px auto;
+        padding: 7px 15px;
     }
 
     .home .img-div {
@@ -885,7 +900,7 @@ footer a.top-icon {
     }
 
     .home .content-box p {
-        font-size: 2.6vw;
+        font-size: 1rem;
     }
 }
 
@@ -901,7 +916,7 @@ footer a.top-icon {
     }
 
     .tournaments .event-box .event-layer h4 {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .community .testimonial .text-container {
