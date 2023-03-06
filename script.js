@@ -46,13 +46,6 @@ ScrollReveal({
 ScrollReveal().reveal('.content-box h1, .content-box p, h2, footer form input, footer form textarea, footer button', {origin: 'left'});
 ScrollReveal().reveal('.img-div, .event-box, .tournaments h3, .line-container, .text-box, .icon, .line, .about h3, .profile, footer p', {origin: 'bottom'});
 ScrollReveal().reveal('.content-box h3, .content-box a, footer a', {origin: 'right'});
-
-ScrollReveal({
-    reset: false,
-    distance: '80px',
-    duration: 1500,
-    delay: 150
-});
 ScrollReveal().reveal('.nav-link', {origin: 'top'});
 ScrollReveal().reveal('.logo', {origin: 'left'});
 ScrollReveal().reveal('.join-us', {origin: 'right'});
