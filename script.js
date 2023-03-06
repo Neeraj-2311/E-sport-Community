@@ -38,7 +38,7 @@ let name=document.querySelector("#name");
 
 // scroll reveal
 ScrollReveal({
-    reset: true,
+    reset: false,
     distance: '80px',
     duration: 1500,
     delay: 150
@@ -56,14 +56,15 @@ ScrollReveal({
 ScrollReveal().reveal('.nav-link', {origin: 'top'});
 ScrollReveal().reveal('.logo', {origin: 'left'});
 ScrollReveal().reveal('.join-us', {origin: 'right'});
+
 // typed js
-// const typed = new Typed('.multiple-text', {
-//     strings: ['Frontent Developer', 'Youtuber', 'Blogger'],
-//     typeSpeed: 100,
-//     backSpeed: 100,
-//     backDelay: 1000,
-//     loop: true
-// });
+const typed = new Typed('.multiple-text', {
+    strings: ['Community', 'Game space', 'Website'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
 
 function sendMail(){
     let params= {
